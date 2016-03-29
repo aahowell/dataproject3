@@ -59,7 +59,7 @@ $(function () {
             data: [2.3, 1.9, 1.8, 2.2, 2.8],
             color: '#61c5be'
         }, {
-            name: 'Latin America & Caribbean',
+            name: 'Latin America',
             data: [12.0, 12.3, 11.8, 12.5, 13.0],
             color: '#008b8f'
         }]
@@ -129,6 +129,72 @@ $(function () {
         }]
     });
 });
+
+// $(function () {
+//     $('#chart3').highcharts({
+//         chart: {
+//             type: 'bar',
+//             backgroundColor: '#F1F3F2'
+//         },
+//         title: {
+//             text: null
+//         },
+//         subtitle: {
+//             text: null
+//         },
+//         xAxis: {
+//             categories: ['Ecuador', 'Philippines', 'Guatemala', 'Costa Rica', 'Colombia',],
+//             title: {
+//                 text: null
+//             }
+//         },
+//         yAxis: {
+//             min: 0,
+//             title: {
+//                 text: 'Banana Production (tons)',
+//                 align: 'high'
+//             },
+//             labels: {
+//                 overflow: 'justify'
+//             }
+//         },
+//         tooltip: {
+//             valueSuffix: 'tons'
+//         },
+//         plotOptions: {
+//             bar: {
+//                 dataLabels: {
+//                     enabled: true
+//                 }
+//             }
+//         },
+//         legend: {
+//             layout: 'vertical',
+//             align: 'right',
+//             verticalAlign: 'top',
+//             x: -40,
+//             y: 80,
+//             floating: true,
+//             // borderWidth: 1,
+//             backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#F1F3F2'),
+//             shadow: false
+//         },
+//         credits: {
+//             enabled: false
+//         },
+//         series: [{
+//             name: 'Year 1965',
+//             data: [1200000, 27, 34717, 316040, 253460]
+//         }, {
+//             name: 'Year 1985',
+//             data: [1075027, 789251, 362294, 835800, 783039]
+//         }, {
+//             name: 'Year 2013',
+//             data: [5352000, 3267562, 1950497, 1928095, 1549267]
+//         }]
+//     });
+// });
+
 
 
 

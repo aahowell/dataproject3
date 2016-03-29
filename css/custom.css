@@ -288,6 +288,14 @@ p {
   margin-top: 20px;
 }
 
+.sources {
+  padding-top: 20px;
+}
+
+.left-align p {
+  text-align: center;
+}
+
 
 /********************************* RESPONSIVE *********************************************/
 
