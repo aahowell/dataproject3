@@ -1,0 +1,549 @@
+body {
+  background-color: #f1f3f2;
+}
+
+a {
+  text-decoration: none;
+  color: #4c4e4d;
+}
+
+a:hover {
+  text-decoration: underline;;
+  color: #4c4e4d;
+}
+
+/*.topnav {
+  margin-left: 1px;
+  margin-right: 1px;
+}*/
+
+.logo {
+max-width: 140px;
+vertical-align: middle;
+border: 0;
+}
+
+.logo-left {
+  border: 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  float:;
+  margin-top: 20px;
+}
+
+.left-topic {
+  border: 0;
+  display: inline-block;
+  font-family: "Open Sans",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 3em;
+  padding-bottom: 3px;
+}
+
+.social {
+  border: 0;
+  display: inline-block;
+  margin-top: 3.2em;
+  padding-bottom: 6px;
+}
+
+.social2 {
+margin-left: 5px;
+}
+
+.social3 {
+margin-left: 5px;
+}
+
+.header {
+  border-bottom: 7px solid #ffeb00;
+  position: relative;
+  display: inline-block;
+}
+
+/*.menu {
+  margin-top: 2.7em;
+}*/
+
+.right-align1 {
+  text-align: right;
+}
+
+.fa-facebook-square:hover {
+  color: #ffeb00;
+}
+
+.fa-twitter-square:hover {
+  color: #ffeb00;
+}
+
+.fa-youtube-square:hover {
+  color: #ffeb00;
+}
+
+
+/*************************************** BODY *******************************************/
+
+h1 {
+  font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  color: #4c4e4d;
+  font-size: 1em;
+  line-height: 125%;
+}
+
+h2 {
+  font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #4c4e4d;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  font-family: helvetica;
+  color: #4c4e4d;
+}
+
+.intro {
+  /*margin-left: 20px;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro2 {
+  border-top: 1px solid
+}
+
+.intro .intro-text .headline {
+  font-size: 2.7em;
+  font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  color: #4c4e4d;
+}
+
+.intro .intro-text .paragraph p {
+  font-size: 1.2em;
+  font-family: Georgia;
+  color: #4c4e4d;
+}
+
+.paragraph a {
+  text-decoration: underline;
+}
+
+/*Data Table Stlying*/
+.left-padding {
+  padding-left: 6em;
+}
+
+.footer {
+  border-top: 3px solid #ffeb00;
+  padding-top: 15px;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.logo-footer {
+  max-width: 80px;
+  vertical-align: middle;
+  border-right: 1px solid #a3a3a3;
+  padding-right: 15px;
+}
+
+.footer-text {
+  padding-top: 10px;
+  padding-bottom: 8px;
+  text-align: center;
+  border-right: 1px solid #a3a3a3;
+  font-size: 11px;
+}
+
+.footer-text-2 {
+  margin-top: 8px;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: Times,Arial,Helvetica,"Nimbus Sans L",sans-serif;
+  font-size: 18px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #C1C1C1;
+  padding-bottom: 15px;
+}
+
+.border-top {
+  border-top: 1px solid #C1C1C1;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.border-right {
+  border-right: 1px solid #C1C1C1;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #008b8f;
+    border-radius: 0;
+  }
+
+.tab-content {
+  margin: 10px 0;
+}
+
+.nav > li > a {
+  padding: 5px 7px;
+  border-radius: 0;
+}
+
+.btn-primary {
+  border: 0;
+  border-radius: 0;
+  background-color: #C1C1C1;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #f0d011;
+  color: black;
+}
+
+#worldmap1, #worldmap2 {
+  height: 500px;
+}
+
+.box {
+    background-color: #e3e3e3;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    text-align-last: center;
+  }
+
+.box-text h2 {
+  padding: 5px;
+  text-align: center;
+  color: #008b8f;
+  font-weight: 800;
+  font-size: 28px;
+  /*line-height: 5%;*/
+}
+
+.box-text h3 {
+  font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  color: #0b675f;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 100%;
+}
+
+
+.box-text p {
+  padding: 5px;
+  text-align: center;
+  color: #aeaeae;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.box-text {
+  padding: 5px;
+  text-align: center;
+}
+
+.boat {
+ max-width: 150px;
+}
+
+.bananas {
+ max-width: 125px;
+}
+
+.banana {
+  max-width: 80px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+#chart1 {
+  padding-top: 20px;
+}
+
+#chart2 {
+  padding-top: 20px;
+}
+
+#table {
+  margin-top: 20px;
+}
+
+
+/********************************* RESPONSIVE *********************************************/
+
+
+/* Iphone 5 */
+@media screen and (max-width: 730px) and (min-width: 320px) {
+
+    /*.container {
+      min-width: 900px;
+    }*/
+
+    .header {
+      border-bottom: 4px solid #ffeb00;
+      position: relative;
+      display: inline-block;
+    }
+
+    .left-topic {
+      border: 0;
+      display: inline-block;
+      font-family: "Open Sans",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-top: 3.45em;
+      padding-bottom: 3px;
+    }
+
+    .logo {
+    max-width: 85px;
+    vertical-align: middle;
+    border: 0;
+    }
+
+    .logo-left {
+      border: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      float:;
+      margin-top: 2.5em;
+    }
+
+    /*.menu {
+      margin-top: 4.8em;
+    }*/
+
+    .intro {
+      margin-left: 1px;
+      margin-right: 2px;
+      margin-top: 40px;
+    }
+
+    .intro .intro-text .headline {
+      font-size: 2em;
+      font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+      font-weight: 800;
+      color: #4c4e4d;
+    }
+
+
+}
+
+/*Iphone 6*/
+@media screen and (max-width: 667px) and (min-width: 375px) {
+
+    /*.container {
+      min-width: 900px;
+    }*/
+
+    .paragraph {
+      font-size: 18px;
+    }
+
+    .paragraph p {
+      font-size: 18px;
+    }
+
+    .header {
+      border-bottom: 4px solid #ffeb00;
+      position: relative;
+      display: inline-block;
+    }
+
+    .left-topic {
+      border: 0;
+      display: inline-block;
+      font-family: "Open Sans",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-top: 4.9em;
+      padding-bottom: 3px;
+    }
+
+    .logo {
+    max-width: 95px;
+    vertical-align: middle;
+    border: 0;
+    }
+
+    .logo-left {
+      border: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      float:;
+      margin-top: 2.5em;
+    }
+
+    /*.menu {
+      margin-top: 4.8em;
+    }*/
+
+    .intro {
+      margin-left: 5px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .intro .intro-text .headline {
+      font-size: 2em;
+      font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+      font-weight: 800;
+      color: #4c4e4d;
+    }
+
+}
+
+/*Iphone 6 plus*/
+@media screen and (max-width: 736px) and (min-width: 414px) {
+
+    /*.container {
+      min-width: 900px;
+    }*/
+
+    .header {
+      border-bottom: 4px solid #ffeb00;
+      position: relative;
+      display: inline-block;
+    }
+
+    .left-topic {
+      border: 0;
+      display: inline-block;
+      font-family: "Open Sans",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-top: 4em;
+      padding-bottom: 3px;
+    }
+
+    .logo {
+    max-width: 100px;
+    vertical-align: middle;
+    border: 0;
+    }
+
+    .logo-left {
+      border: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      float:;
+      margin-top: 2.5em;
+    }
+
+    .menu {
+      margin-top: -0.7em;
+    }
+
+    .intro {
+      margin-left: 5px;
+      margin-top: 20px;
+    }
+
+    .intro .intro-text .headline {
+      font-size: 2.5em;
+      font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+      font-weight: 800;
+      color: #4c4e4d;
+    }
+
+}
+
+/* iPad */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /*.container {
+      min-width: 900px;
+    }*/
+
+    .left-topic {
+      border: 0;
+      display: inline-block;
+      font-family: "Open Sans",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+      font-size: 26px;
+      font-style: italic;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-top: 4.3em;
+      padding-bottom: 3px;
+    }
+
+    .logo {
+    max-width: 160px;
+    vertical-align: middle;
+    border: 0;
+    }
+
+    .logo-left {
+      border: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      float:;
+      margin-top: 6em;
+    }
+
+    .menu {
+      margin-top: 5.2em;
+    }
+
+    .intro {
+      margin-left: 10px;
+      margin-top: 40px;
+    }
+
+    .intro .intro-text .headline {
+      font-size: 3.5em;
+      font-family: "Open Sans","Alegreya Sans","Lato 1000",Helvetica,Arial,sans-serif;
+      font-weight: 800;
+      color: #4c4e4d;
+    }
+
+    .footer-text {
+      padding-top: 10px;
+      padding-bottom: 8px;
+      text-align: right;
+      border-right: 1px solid #a3a3a3;
+      font-size: 8px;
+    }
+
+    .footer-text-2 {
+      margin-top: 8px;
+      font-style: italic;
+      font-weight: bolder;
+      font-family: Georgia,Arial,Helvetica,"Nimbus Sans L",sans-serif;
+      font-size: 8px;
+    }
+
+    .right-align {
+      text-align: right;
+    }
+}
