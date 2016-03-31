@@ -27,7 +27,7 @@ $(function () {
             align: 'right',
             x: -30,
             verticalAlign: 'top',
-            y: 25,
+            y: 50,
             floating: true,
             backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || '#F1F3F2',
             borderColor: null,
@@ -73,7 +73,7 @@ $(function () {
             backgroundColor: '#F1F3F2'
         },
         title: {
-            text: 'Retail prices in Europe, Japan and U.S., 2008-2012'
+            text: 'Global Retail Prices 2008-2012'
         },
         subtitle: {
             text: null
@@ -130,70 +130,73 @@ $(function () {
     });
 });
 
-// $(function () {
-//     $('#chart3').highcharts({
-//         chart: {
-//             type: 'bar',
-//             backgroundColor: '#F1F3F2'
-//         },
-//         title: {
-//             text: null
-//         },
-//         subtitle: {
-//             text: null
-//         },
-//         xAxis: {
-//             categories: ['Ecuador', 'Philippines', 'Guatemala', 'Costa Rica', 'Colombia',],
-//             title: {
-//                 text: null
-//             }
-//         },
-//         yAxis: {
-//             min: 0,
-//             title: {
-//                 text: 'Banana Production (tons)',
-//                 align: 'high'
-//             },
-//             labels: {
-//                 overflow: 'justify'
-//             }
-//         },
-//         tooltip: {
-//             valueSuffix: 'tons'
-//         },
-//         plotOptions: {
-//             bar: {
-//                 dataLabels: {
-//                     enabled: true
-//                 }
-//             }
-//         },
-//         legend: {
-//             layout: 'vertical',
-//             align: 'right',
-//             verticalAlign: 'top',
-//             x: -40,
-//             y: 80,
-//             floating: true,
-//             // borderWidth: 1,
-//             backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#F1F3F2'),
-//             shadow: false
-//         },
-//         credits: {
-//             enabled: false
-//         },
-//         series: [{
-//             name: 'Year 1965',
-//             data: [1200000, 27, 34717, 316040, 253460]
-//         }, {
-//             name: 'Year 1985',
-//             data: [1075027, 789251, 362294, 835800, 783039]
-//         }, {
-//             name: 'Year 2013',
-//             data: [5352000, 3267562, 1950497, 1928095, 1549267]
-//         }]
-//     });
-// });
+$(function () {
+    $('#chart3').highcharts({
+        chart: {
+            type: 'bar',
+            backgroundColor: '#F1F3F2'
+        },
+        title: {
+            text: 'Banana Consumption 2000-2013',
+        },
+        subtitle: {
+            text: null
+        },
+        xAxis: {
+            categories: ['2013', '2010', '2007', '2004', '2000',],
+            title: {
+                text: null
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Fruit Consumption (pounds)',
+                align: 'high'
+            },
+            labels: {
+                overflow: 'justify'
+            }
+        },
+        tooltip: {
+            valueSuffix: 'pounds'
+        },
+        plotOptions: {
+            bar: {
+                dataLabels: {
+                    enabled: true
+                }
+            }
+        },
+        legend: {
+            // layout: 'horizontal',
+            enabled: true,
+            floating: false,
+            verticalAlign: 'top',
+            x: -20,
+            y:30,
+            // borderWidth: 1,
+            backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#F1F3F2'),
+            shadow: false
+        },
+        credits: {
+            enabled: false
+        },
+        series: [{
+            name: 'Bananas',
+            data: [28.1, 25.6, 26, 25.8, 28.4],
+            color:'#008b8f'
+        }, {
+            name: 'Oranges',
+            data: [22.7, 20.8, 17.3, 21.9, 22.7],
+            color:'#61c5be'
+        }, {
+            name: 'Apples',
+            data: [16.7, 14.8, 15.9, 18.2, 16.9],
+            color:'#b5d9d5'
+        }]
+    });
+});
 
 
 
